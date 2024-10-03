@@ -6,6 +6,10 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
+  set range(value) {
+    this._range = value;
+  }
+
   get range() {
     return this._range;
   }
